@@ -1,0 +1,54 @@
+<html>
+<head>
+<style>
+.contain{
+	display: grid;
+	grid-template-areas:
+	"b1 b1 b3"
+	"b2 b2 b3"
+	"b4 b4 b4"
+	;
+}
+.block1{
+grid-area:b1;
+border:2px solid red;
+}
+.block2{
+grid-area:b2;
+border:2px solid green;
+}
+.block3{
+grid-area:b3;
+border:2px solid blue;
+display: grid;
+grid-template-areas:
+	"b3_1 b3_1 b3_2";
+}
+.block3_1{
+grid-area:b3_1;
+border:2px solid purple;
+}
+.block3_2{
+grid-area:b3_2;
+border:2px solid pink;
+}
+.block4{
+grid-area:b4;
+border:2px solid yellow;
+}
+
+
+</style>
+</head>
+<body>
+	<main class="contain">
+		<div class="block1">B1</div>
+		<div class="block2">B2</div>
+		<div class="block3">B3
+			<div class="block3_1">B3.1</div>
+			<div class="block3_2">B3.2</div>
+		</div>
+		<div class="block4">B4</div>
+	</main>
+</body>
+</html>

@@ -1,0 +1,29 @@
+
+/* Bai 3 */
+footer {
+    margin: auto;
+   
+    margin-top: 2px;
+    border: 1px solid #ccc7c8;
+    border-radius: 5px;
+    padding: 0px 5px;
+    text-align: center;
+  }
+  .fa-facebook,
+  .fa-pinterest,
+  .fa-twitter {
+    color: #ed4190;
+    text-decoration: none;
+  }
+  #top {
+    position: fixed;
+    right: 10px;
+    bottom: 5px;
+    padding: 10px;
+    z-index: 100;
+    color: transparent;
+  }
+  #top img {
+    height: 60px;
+    width: 60px;
+  }
