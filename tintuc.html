@@ -3,32 +3,54 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
     <link
-      rel="shortcut icon"
-      type="image/vnd.microsoft.icon"
-      href="images/favicon.ico"
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
     />
+    <link rel="stylesheet" href="css/1as_3art.css">
+    <link rel="stylesheet" href="css/tintuc.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
     <title>Tin Tức</title>
   </head>
   <body>
-    <header>
-      <img src="images/logo.png" alt="logo" />
-      <nav>
-        <a href="trangchu.html">Trang chủ</a>
-        <a href="gioithieu.html">Giới thiệu</a>
-        <a href="sanpham.html">Sản phẩm</a>
-        <a href="tintuc.html">Tin tức</a>
-        <a href="dangnhap.html">Đăng nhập</a>
-        <a href="dangki.html">Đăng kí</a>
-        <a href="lienhe.html">Liên hệ</a>
-      </nav>
+    <header class="header-cell">
+      <a href="trangchu.html">
+        <img src="images/logo.png" height="36px" />
+      </a>
+      <img src="fig_th2/header-img1.png" id="header-img-1" />
+      <img src="fig_th2/header-img2.png" id="header-img-2" />
+      <img src="fig_th2/header-img3.png" id="header-img-3" />
+      <div class="nav-grid">
+        <nav class="nav-cell">
+          <a href="trangchu.html" class="sub-nav">Trang Chủ</a>
+          <a href="gioithieu.html" class="sub-nav">Giới Thiệu</a>
+          <a href="sanpham.html" class="sub-nav">Sản Phẩm</a>
+          <a href="tintuc.html" class="sub-nav">Tin Tức</a>
+          <a href="dangnhap.html" class="sub-nav">Đăng Nhập</a>
+          <a href="dangky.html" class="sub-nav">Đăng Ký</a>
+          <a href="lienhe.html" class="sub-nav">Liên Hệ</a>
+        </nav>
+
+        <form method="get">
+          <div id="search-head">
+            <input
+              type="text"
+              placeholder="Nhập nội dung cần tìm..."
+              class="searching-bar"
+            />
+            <a href="#"><i class="fa fa-search icon"></i></a>
+            <i class="fa fa-shopping-cart icon"></i>
+          </div>
+        </form>
+      </div>
     </header>
-    <main>
-      <h1>TIN TỨC</h1>
-      <article>
-        <div>
-          <h2>LỘ DIỆN SIÊU NĂNG LỰC TỪ TRÁI XOÀI!</h2>
-          <img src="images/tintuc/news1.jpg" width="400" alt="news1" />
+    <main class="main-cell">
+      <article class="article-cell">
+        <h1>TIN TỨC</h1>
+        <h2>LỘ DIỆN SIÊU NĂNG LỰC TỪ TRÁI XOÀI!</h2>
+        <div class="cc">
           <p>
             Xoài là một trong những cây ăn trái chủ lực của đồng bằng sông Cửu
             Long (ĐBSCL), chiếm khoảng 48% tổng diện tích xoài cả nước. Trong
@@ -36,10 +58,10 @@
             lớn nhất vùng ĐBSCL với sản lượng hàng năm gần 124 ngàn tấn.
             <a href="#"> Xem chi tiết</a>
           </p>
+          <img src="images/tintuc/news1.jpg" width="400" alt="news1" />
         </div>
-        <div>
-          <h2>SỮA CÁC LOẠI HẠT-MÓN NGON CHO HỆ MIỄN DỊCH KHOẺ</h2>
-          <img src="images/tintuc/news2.jpg" width="400" alt="news2" />
+        <h2>SỮA CÁC LOẠI HẠT-MÓN NGON CHO HỆ MIỄN DỊCH KHOẺ</h2>
+        <div class="cc">
           <p>
             Các loại sữa hạt càng ngày trở nên quen thuộc với mọi người, bởi hàm
             lượng dinh dưỡng cao, và lành tính. Với thị trường sữa hạt đa dạng
@@ -47,49 +69,50 @@
             nào, và loại nào là bổ dưỡng nhất cho sức khỏe?
             <a href="#"> Xem chi tiết</a>
           </p>
+          <img src="images/tintuc/news2.jpg" width="400" alt="news2" />
         </div>
-        <div>
-          <h2>SỮA CHUA KIWI – MÓN QUÀ CHO SỨC KHỎE</h2>
-          <img src="images/tintuc/news3.jpg" width="400" alt="news3" />
+        <h2>SỮA CHUA KIWI – MÓN QUÀ CHO SỨC KHỎE</h2>
+        <div class="cc">
           <p>
             Kiwi thành phần dinh dưỡng rất cao so với các loại hoa quả khác. Hàm
             lượng vitamin C cao cho hệ miễn dịch khỏe mạnh cùng nguồn chất xơ hỗ
             trợ hệ tiêu hóa. Siêu quả Kiwi cho cả nhà siêu khỏe, 100% Vitamin C
             cần thiết mỗi ngày. <a href="#"> Xem chi tiết</a>
           </p>
+          <img src="images/tintuc/news3.jpg" width="400" alt="news3" />
         </div>
-        <div>
-          <h2>RA MẮT APP SỮA CHUA Freeeze TRÊN NỀN TẢNG IOS</h2>
-          <img src="images/tintuc/news4.jpg" width="400" alt="news4" />
+        <h2>RA MẮT APP SỮA CHUA Freeeze TRÊN NỀN TẢNG IOS</h2>
+        <div class="cc">
           <p>
             Nhằm mang đến cho tất cả khách hàng những trải nghiệm thú vị nhất
             Công ty Sữa Chua Freeeze giới thiệu app đặt hàng độc đáo, giúp khách
             hàng mua sắm được mọi lúc mọi nơi với nhiều tiện ích.
             <a href="#"> Xem chi tiết</a>
           </p>
+          <img src="images/tintuc/news4.jpg" width="400" alt="news4" />
         </div>
-        <div>
-          <h2>ĐĂNG KÝ THÀNH VIÊN – NHẬN NGAY ƯU ĐÃI</h2>
-          <img src="images/tintuc/news5.jpg" width="400" alt="news5" />
+        <h2>ĐĂNG KÝ THÀNH VIÊN - NHẬN NGAY ƯU ĐÃI</h2>
+        <div class="cc">
           <p>
             Công ty sữa chua hân hạnh mang đến chương trình "Đăng Ký Thành Viên"
             với nhiều ưu đãi độc đáo. Member Card – thẻ thành viên nhà Sữa Chua
             Freeeze dành cho tất cả khách hàng đăng kí tài khoản và phát sinh
             đơn hàng. <a href="#"> Xem chi tiết</a>
           </p>
+          <img src="images/tintuc/news5.jpg" width="400" alt="news5" />
         </div>
-        <div>
-          <h2>TUYỂN GIÁM SÁT CHUỖI CỬA HÀNG</h2>
-          <img src="images/tintuc/news6.jpg" width="400" alt="news6" />
+        <h2>TUYỂN GIÁM SÁT CHUỖI CỬA HÀNG</h2>
+        <div class="cc">
           <p>
             Tuyển Giám Sát chuỗi cửa hàng : – tại khu vực TP Hải Phòng & các
             tỉnh lân cận – Số lượng: 01 MÔ TẢ: Giám sát hoạt động kinh doanh các
             cửa hàng; Kiểm tra lịch làm việc của các cửa hàng.
             <a href="#"> Xem chi tiết</a>
           </p>
+          <img src="images/tintuc/news6.jpg" width="400" alt="news6" />
         </div>
       </article>
-      <aside>
+      <aside class="left-cell">
         <h1>ĐƯỢC QUAN TÂM</h1>
         <img src="images/tintuc/hotnews.jpg" width="400" alt="hotnews" />
         <p>
@@ -99,13 +122,13 @@
         </p>
       </aside>
     </main>
-    <footer>
+    <footer class="footer-cell">
       <p>
-        &copy; 2021 Bản quyền thuộc về FreeezeVN
-        <a href="facebook.com/FreeezeVN">facebook</a>
-        <a href="twitter.com/FreeezeVN">twitter</a>
-        <a href="pinterest.com/FreeezeVN">pinterest</a>
-        <a href="#">Về Đầu Trang</a>
+        &copy Bản quyền thuộc về FreeezeVN.
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-pinterest"></i>
+        <a class="top" href="#" id="top"> <img src="fig_th2/top.png" /></a>
       </p>
     </footer>
   </body>

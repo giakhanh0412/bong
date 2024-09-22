@@ -1,0 +1,10 @@
+main p {
+    font-size: 20px;
+}
+body {
+    text-align: justify;
+}
+h1 {
+    background: radial-gradient(1100px 50px at bottom, #cddc39 0%, #ffffff 10%);
+    padding-bottom: 3px;
+}

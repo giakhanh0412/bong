@@ -1,0 +1,27 @@
+
+main p {
+    font-size: 20px;
+}
+body {
+    text-align: justify;
+}
+h1 {
+    background: radial-gradient(1100px 50px at bottom, #cddc39 0%, #ffffff 10%);
+    padding-bottom: 3px;
+}
+.cc{
+    display: grid;
+    grid-template-areas: 
+    "text pic";
+    grid-template-columns: 2fr 1fr;
+}
+.cc p{
+    margin: 5px;
+    grid-area: text;
+    text-align: justify;
+}
+ img{
+    margin: 5px;
+    border-radius: 5px;
+    max-width: 100%;
+}
