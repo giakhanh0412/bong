@@ -1,0 +1,20 @@
+fieldset {
+    border: none;
+}
+.fa-location-dot, .fa-envelope, .fa-list-ul, .fa-note-sticky, .fa-users{
+    text-align: center;
+  padding: 4px;
+  width: 30px;
+  color: white;
+  background-color: #cdcc39;
+}
+.fa-location-dot{
+    padding: 4px;
+    color: #f9086d;
+}
+input{
+    position:relative;
+    padding-top: 4px;
+    padding-bottom: 1px;
+   
+}

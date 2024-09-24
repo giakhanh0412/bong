@@ -52,6 +52,8 @@ main{
 
 /* Bai 4 */
 h1 {
+  background: radial-gradient(1100px 50px at bottom, #cddc39 0%, #ffffff 10%);
+  padding-bottom: 3px;
   align-items: center;
   margin: 12px 0 16px 0;
   color: #f9086d;

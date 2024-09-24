@@ -47,3 +47,7 @@ span {
   width: 100%;
   text-align: center;
 }
+h1 {
+  background: radial-gradient(1100px 50px at bottom, #cddc39 0%, #ffffff 10%);
+  padding-bottom: 3px;
+}

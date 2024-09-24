@@ -106,5 +106,8 @@ nav {
   cursor: pointer;
 }
 .searching-bar {
-  padding: 4px;
+  /* align-self: center; */
+  font-size: smaller;
+  padding-top: 4px;
+  text-align: left;
 }

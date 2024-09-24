@@ -1,0 +1,17 @@
+fieldset {
+  border: none;
+}
+.fa-envelope , .fa-key, .fa-id-badge, .fa-users{
+  text-align: center;
+  padding: 4px;
+  width: 30px;
+  color: white;
+  background-color: #cdcc39;
+  
+}
+input{
+  position:relative;
+  padding-top: 4px;
+  padding-bottom: 1px;
+ 
+}
